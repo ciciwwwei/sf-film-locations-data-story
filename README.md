@@ -1,6 +1,4 @@
 # San Francisco’s most filmed locations show how the city becomes a movie backdrop
-## Dataset
-This project uses the Film Locations in San Francisco dataset from DataSF. The dataset includes film and television productions connected to San Francisco, including title, release year, filming location, production company, director, writer, and actors.
 
 ## Research Questions
 1. Which San Francisco filming locations appear most often in the dataset?
@@ -12,6 +10,14 @@ This project uses the Film Locations in San Francisco dataset from DataSF. The d
 This project uses the Film Locations in San Francisco dataset from DataSF. The dataset is published through San Francisco’s open data portal and is provided by the San Francisco Film Commission. It includes information about movies and television productions connected to San Francisco, including titles, release years, filming locations, production companies, directors, writers, and actors.
 This is a useful source because it comes from a city agency connected to film activity in San Francisco. However, it still has limitations. The dataset should not be treated as a perfect list of every film or television production ever filmed in the city. Some productions or locations may be missing, and some locations may be written in slightly different ways.
 
+## Methods
+
+I downloaded the Film Locations in San Francisco dataset from DataSF and imported it into Google Sheets. I focused on the title, release year, location, and production company columns. I created pivot tables to count how often each filming location appeared and how many listings appeared in each decade.
+
+For the decade analysis, I created a new column that grouped release years into decades. Then I used a pivot table to count the number of titles in each decade. I used bar charts because they are useful for comparing categories, such as locations and decades.
+
+Google Sheet: [View my analysis spreadsheet here](https://docs.google.com/spreadsheets/d/1TUhxm7UXssgIjPeq7-At_qdzKpk1TPCT5c15GU1ET34/edit?usp=sharing)
+
 ## Finding 1: Some San Francisco locations appear again and again
 
 ![Top filming locations](Topfilminglocations.png)
@@ -20,22 +26,20 @@ This is a useful source because it comes from a city agency connected to film ac
 
 ![Film locations by decade](Filmlocationsbydecade.png)
 
-## Methods
-
-I downloaded the Film Locations in San Francisco dataset from DataSF and imported it into Google Sheets. I focused on the title, release year, location, and production company columns. I created pivot tables to count how often each filming location appeared and how many listings appeared in each decade.
-
-For the decade analysis, I created a new column that grouped release years into decades. Then I used a pivot table to count the number of titles in each decade. I used bar charts because they are useful for comparing categories, such as locations and decades.
-
-Google Sheet: [(https://docs.google.com/spreadsheets/d/1TUhxm7UXssgIjPeq7-At_qdzKpk1TPCT5c15GU1ET34/edit?usp=sharing)]
-
 ## Limitations
 
 This dataset should not be treated as a complete list of every movie or television production filmed in San Francisco. Some productions may be missing, and some locations may be written in slightly different ways. The dataset also counts listed locations, not how long a location appeared on screen or how important it was to the story.
 
+Another limitation is that the same location may be written in different formats. For example, a street, neighborhood, or landmark could appear under slightly different names. This could split the count across multiple rows. Because of this, the charts should be understood as a summary of the dataset rather than a perfect measurement of San Francisco film history.
+
 ## Ethical Concerns and Reporting Process
 
-This story does not involve private personal information, but it can still shape how people think about San Francisco neighborhoods. A complete story would include interviews with local filmmakers, the San Francisco Film Commission, and residents in commonly filmed neighborhoods.
+This story does not involve private personal information, but it can still shape how people think about San Francisco neighborhoods. If certain locations or neighborhoods appear often in film data, that does not mean those places should only be understood as tourist attractions or entertainment spaces.
+
+A complete story would include interviews with local filmmakers, the San Francisco Film Commission, and residents in commonly filmed neighborhoods. Additional reporting could help explain why certain locations are chosen for filming and how film production affects people who live and work nearby.
 
 ## Source
 
-Film Locations in San Francisco, DataSF.
+DataSF, “Film Locations in San Francisco,” data provided by the San Francisco Film Commission.
+
+Data provided by the San Francisco Film Commission.
