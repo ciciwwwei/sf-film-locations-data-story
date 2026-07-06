@@ -18,7 +18,7 @@ This is a useful source because it comes from a city agency connected to film ac
 
 ## Finding 2: Filming activity changes across decades
 
-![Film locations by decade](filmlocationsbydecade.png)
+![Film locations by decade](Filmlocationsbydecade.png)
 
 ## Methods
 
