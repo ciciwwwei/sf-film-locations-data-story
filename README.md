@@ -14,11 +14,11 @@ This is a useful source because it comes from a city agency connected to film ac
 
 ## Finding 1: Some San Francisco locations appear again and again
 
-![Top filming locations](charts/top-filming-locations.png)
+Topfilminglocations.png
 
 ## Finding 2: Filming activity changes across decades
 
-![Film locations by decade](charts/films-by-decade.png)
+Filmlocationsbydecade.png
 
 ## Methods
 
