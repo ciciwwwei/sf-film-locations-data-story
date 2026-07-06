@@ -59,4 +59,4 @@ Additional reporting could also compare this dataset with other records, such as
 
 DataSF, “Film Locations in San Francisco,” data provided by the San Francisco Film Commission.
 
-Data provided by the San Francisco Film Commission.
+
